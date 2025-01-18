@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.spinner{
+    margin: 10vw auto;
+    border-top: 1vw solid #3498db;
+    border-bottom: 1vw solid #d51f1f;
+    border-left: 1vw solid #25ff75;
+    border-right:1vw solid #fdfd3c;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    animation: spin 1s linear infinite;
+  }
+  
+@keyframes spin {
+    to{ 
+        transform: rotate(360deg);
+    }
+  }
